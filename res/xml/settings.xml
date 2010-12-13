@@ -3,10 +3,33 @@
     <ListPreference android:key="UNDERPOPULATION_VARIABLE"
         android:title="Minimum variable"
         android:summary="Any live cell with fewer than the minimum number of 
-        live neighbours dies, as if caused by under-population"
-        android:entries="@array/underpopulation_options" 
-        android:entryValues="@array/underpopulation_values"
-        android:dialogTitle="Minimum variable" android:defaultValue="2" />
+        live neighbours dies, as if by under-population"
+        android:entries="@array/population_options" 
+        android:entryValues="@array/population_values"
+        android:dialogTitle="Minimum variable" 
+        android:defaultValue="2" />
+    <ListPreference android:key="OVERPOPULATION_VARIABLE"
+        android:title="Maximum variable"
+        android:summary="Any live cell with more than the maximum number of 
+        live neighbours dies, as if by overcrowding"
+        android:entries="@array/population_options" 
+        android:entryValues="@array/population_values"
+        android:dialogTitle="Maximum variable" 
+        android:defaultValue="3" />
+    <ListPreference android:key="SPAWN_VARIABLE"
+        android:title="Spawn variable"
+        android:summary="Any dead cell with exactly the spawn number of live 
+        neighbours becomes a live cell"
+        android:entries="@array/population_options" 
+        android:entryValues="@array/population_values"
+        android:dialogTitle="Spawn variable" 
+        android:defaultValue="3" />
+    <ListPreference android:key="ANIMATION_SPEED_VARIABLE"
+        android:title="Animation speed"
+        android:entries="@array/animation_speed_options" 
+        android:entryValues="@array/animation_speed_values"
+        android:dialogTitle="Animation speed" 
+        android:defaultValue="3" />
     <CheckBoxPreference android:key="COLOR_CODING"
         android:title="@string/color_coding_title" 
         android:summary="@string/color_coding_summary"

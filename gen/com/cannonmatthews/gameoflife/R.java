@@ -9,13 +9,16 @@ package com.cannonmatthews.gameoflife;
 
 public final class R {
     public static final class array {
-        public static final int underpopulation_options=0x7f050000;
-        public static final int underpopulation_values=0x7f050001;
+        public static final int animation_speed_options=0x7f050002;
+        public static final int animation_speed_values=0x7f050003;
+        public static final int population_options=0x7f050000;
+        public static final int population_values=0x7f050001;
     }
     public static final class attr {
     }
     public static final class color {
         public static final int background=0x7f060000;
+        public static final int cell=0x7f060001;
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
