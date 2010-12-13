@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="underpopulation_options">
+        <item>Zero live neighbours</item>
+        <item>One live neighbour</item>
+        <item>Two live neighbours</item>
+        <item>Three live neighbours</item>
+        <item>Four live neighbours</item>
+        <item>Five live neighbours</item>
+        <item>Six live neighbours</item>
+    </string-array>
+    <string-array name="underpopulation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
