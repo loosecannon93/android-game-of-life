@@ -1,13 +1,15 @@
 package com.cannonmatthews.gameoflife;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.Window;
 
-public class GridActivity extends Activity {
+public class GridActivity extends Activity  {
 
     private GridView _gridView;
 
@@ -16,7 +18,7 @@ public class GridActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grid);
-        
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         _gridView = (GridView)findViewById(R.id.grid_view); 
         _gridView.setMode(GridView.RUNNING);
     }
